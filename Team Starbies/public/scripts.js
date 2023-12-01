@@ -72,6 +72,23 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
+document.getElementById('productBox').addEventListener('click', function (event) {
+        // Check if the click target is not the cart icon
+        if (!event.target.classList.contains('add-cart')) {
+            // Redirect to the product details page
+            window.location.href = 'productdetails.html';
+        }
+});
+
+document.getElementById('addToCart').addEventListener('click', function (event) {
+        // Prevent the click event from propagating to the parent container
+        event.stopPropagation();
+        // Add the item to the cart (you can add your cart logic here)
+        addProductToCart(title,price,productImg);
+});
+
+
+
 //Remove Cart Item
 function removeCartItem(event){
     var buttonClicked = event.target;

@@ -178,30 +178,3 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
     
-
-    document.addEventListener('DOMContentLoaded', function () {
-        var products = {
-            "Iced Cappuccino with Cold Foam": {
-                "Tall": "$700.00 JMD",
-                "Venti": "$800.00 JMD",
-                "Grande": "$900.00 JMD"
-            },
-            "Caramel Macchiato": {
-                "Tall": "$700.00 JMD",
-                "Venti": "$800.00 JMD",
-                "Grande": "$900.00 JMD"
-            }
-        };
-    
-        var sizeSelect = document.querySelector('select');
-        sizeSelect.addEventListener('change', function() {
-            var size = this.value;
-            // Now you can use the 'size' variable just like you would with the buttons
-            // For example, let's log the prices of the products for this size
-            console.log('Prices for ' + size + ':');
-            for (var product in products) {
-                console.log(product + ': ' + products[product][size]);
-            }
-        });
-    });
-    
