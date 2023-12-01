@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cold Brew™</title>
+    <link rel="icon" href="favicon.png" type="image/jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="menucss.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon.png">
+</head>
+
+<body class="ColdBrew">
+    <header>
+        <div class="logo">
+            <a href="dashboard.html">
+                <img src="favicon.png" width="80px">
+            </a>
+        </div>
+        <nav class="navigationbar">
+            <a href="dashboard.html">HOME</a>
+            <a href="menu.html">MENU</a>
+            <a href="favorites.html">FAVORITES</a>
+            <a href="https://dashboard.stripe.com/test/payments">ORDER</a>
+            <a href="index.html">SIGN OUT</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="favorites.html" class="fas fa-heart"></a>
+            <i class="fas fa-shopping-cart" id="cart-icon" data-quantity="0"></i>
+        </div>      
+
+        <div class="cart">
+            <h2 class = "cart-title">Your Cart</h2>
+            <div class="cart-content"></div>
+
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">$0</div>
+            </div>
+            <button type="button" class="btn-buy">Pay Now</button>
+            <i class="fas fa-times" id="close-cart"></i>
+
+        </div>
+    </header>
+
+    <section class="shop-container3">
+        <h3 class="section-title3">Cold Brews™</h3>
+
+        <!-- Content -->
+        <div class="shop-content2">
+
+            <!-- Box-0 -->
+            <div class="product-box">
+                <div class="feature-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizcpqLECQH9wiNJuwdBEwsXn5yn3CbXP-sRe5ZRkaiQmE3a3fFf1h2L-vt1snaUboKG2TFimtSJUgSpZimTvwpa2CC4a5jN5uFmnv-tuSg94FEc2YX8pzxYSZjCRNmWn8L3vZ71Gz-87kcuv9gtvGlxoQBm12IdZyFCLoQjP92mCJewoi6V0SjU5xCyb3q/s320/Cold%20brew.jpeg"
+                        alt="" class="product img">
+                    <h3 class="product-title">Cold Brew</h3>
+                    <span class ="price">$700.00 JMD</span>
+                    <i class="fas fa-shopping-cart add-cart"></i>
+                </div>
+            </div>
+
+            <!-- Box-1 -->
+            <div class="product-box">
+                <div class="feature-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg40LSmGi0f9Pr1HSdB5vo4ud5sclHR_EF4cXy2pLZxaz1NrgQf9lWdGYmKxuLRjcFQcxKlT9EaHM87r8cHOzgt86HDarl6p8QtWnzzDYaowRdrIDdMHgwp364nwjILY-w-r7pgu_MtuDzTBqQetRsHpuoorhph9vXyjSefoDK2x40Cb8PkY2KgZy5OfOGW/s320/Vanilla%20Sweet%20Cream%20Cold%20Brew.jpeg"
+                        alt="" class="product img">
+                    <h3 class="product-title">Vanilla Sweet Cream Cold Brew</h3>
+                    <span class ="price">$850.00 JMD</span>
+                    <i class="fas fa-shopping-cart add-cart" ></i>
+                </div>
+            </div>
+
+
+        </div>
+
+        <script src="scripts.js"></script>
+        <script src="cart.js"></script>
+    </section>
+</body>
+
+</html>

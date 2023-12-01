@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frappuccino™</title>
+    <link rel="icon" href="favicon.png" type="image/jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="menucss.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon.png">
+</head>
+
+<body class="frapp">
+    <header>
+        <div class="logo">
+            <a href="dashboard.html">
+                <img src="favicon.png" width="80px">
+            </a>
+        </div>
+        <nav class="navigationbar">
+            <a href="dashboard.html">HOME</a>
+            <a href="menu.html">MENU</a>
+            <a href="favorites.html">FAVORITES</a>
+            <a href="https://dashboard.stripe.com/test/payments">ORDER</a>
+            <a href="index.html">SIGN OUT</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="favorites.html" class="fas fa-heart"></a>
+            <i class="fas fa-shopping-cart" id="cart-icon" data-quantity="0"></i>
+        </div>      
+
+        <div class="cart">
+            <h2 class = "cart-title">Your Cart</h2>
+            <div class="cart-content"></div>
+
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">$0</div>
+            </div>
+            <button type="button" class="btn-buy">Pay Now</button>
+            <i class="fas fa-times" id="close-cart"></i>
+
+        </div>
+    </header>
+
+    <section class="shop-container3">
+        <h3 class="section-title3">Frappuccinos™</h3>
+
+        <!-- Content -->
+        <div class="shop-content2">
+
+            <!-- Box-0 -->
+            <div class="product-box">
+                <div class="feature-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1E1K4q8aAA3dau-3OQsejNZHpwMd2KtnpQlHeEdMrreZe-qbzSpqQUn2BI0s9_0XsF81E2FHij0JxPWRbQLZwtGeH386cA0PiM1aM7AJj8ngkgiBLEd2HXxeKkuP4o4PWKs5ELMvxry__i9VxXEXkEwOe1suGfa3-_JBVlKkbyjt1jpxzUJuZYn30sOBA/s320/Caramel%20Frappuccino%20Coffee%20%E2%84%A2.jpeg"
+                        alt="" class="product img">
+                    <h3 class="product-title">Caramel Frappuccino Coffee</h3>
+                    <span class ="price">$800.00 JMD</span>
+                    <i class="fas fa-shopping-cart add-cart"></i>
+                    <div class="size-buttons">
+                        <button class="size-button">Tall</button>
+                        <button class="size-button">Venti</button>
+                        <button class="size-button">Grande</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box-1 -->
+            <div class="product-box">
+                <div class="feature-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_dbl9hjHfZu-WVGYA8A0DM7TWZTjt7vdMqhu2K646Hlv6jYQ8eBgK28MiqkRD47vI1wb9Z27HY05m1QwXG6Q99fLF-WCrNTVU1dtawELMKehitnN8q11dyf9_l6VMKr_O9GqSqxEsPZbiT4Mofrqarbq1gyrflmmg9n9fXgZcfKMMmiFDD47rZbvn_ueO/s320/Caramel%20Frappuccino%20Creme%E2%84%A2.jpeg"
+                        alt="" class="product img">
+                    <h3 class="product-title">Caramel Frappuccino Creame</h3>
+                    <span class ="price">$800.00 JMD</span>
+                    <i class="fas fa-shopping-cart add-cart"></i>
+                    <div class="size-buttons">
+                        <button class="size-button">Tall</button>
+                        <button class="size-button">Venti</button>
+                        <button class="size-button">Grande</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box-2-->
+            <div class="product-box">
+                <div class="feature-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiB424n_t8ChsdD6D4ClDBRzFUYreANWLdVSZWe8b0zBuR3KTYn5Hb1PPMxpArGAUeWVjUnJ6cnAR4mHohHo2Ejf8MclDf8DrhuBETorYfbn8niEv22hO4-_WD4goGs6pu_oIQ0QQF-iq_0LSnh4an7WkrT7Kd_y0SHkrc3CoRzNZ21qqziBZ6O9-GqkNX8/s320/Mocha%20Frappuccino.jpeg"
+                        alt="" class="product img">
+                    <h3 class="product-title">Mocha Frappuccino</h3>
+                    <span class ="price">$900.00 JMD</span>
+                    <i class="fas fa-shopping-cart add-cart"></i>
+                    <div class="size-buttons">
+                        <button class="size-button">Tall</button>
+                        <button class="size-button">Venti</button>
+                        <button class="size-button">Grande</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box-3-->
+            <div class="product-box">
+                <div class="feature-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxPpD2Rd-iCxel1rrse8nuD8WrWktWFWgCDeAUWmXvoX5XLQySAhDr4TzdufHDk7NJsUtpN_cUJEZ9OHDkZTWFVR22cZKsn6wImi7DB4K6XDtYdvsSIbPswPi_Q-ZVby7sETTRbWYKdsVOfh5khE39tmq6WIsXmMcSBRYseqSquzUHIcMafF2HZKPEHKSH/s320/Strawberries%20&%20Creme.jpeg"
+                        alt="" class="product img">
+                    <h3 class="product-title">StrawBerries & Creame</h3>
+                    <span class ="price">$900.00 JMD</span>
+                    <i class="fas fa-shopping-cart add-cart"></i>
+                    <div class="size-buttons">
+                        <button class="size-button">Tall</button>
+                        <button class="size-button">Venti</button>
+                        <button class="size-button">Grande</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box-4-->
+            <div class="product-box">
+                <div class="feature-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_yFGFrtkYy1EE_mWJjYmp49OS9nU33Reu83hOXjZF3xrL6oZPcpGW1UZufBkrIJQQMV9doP6ROiZvIPyiVVTvxA44aQaTORBCXAvhfi_9o59PCEQK2syPumcE8KrpFQjqF6PbGUtvKuFMWo6jUfEOmop6K3ATbQh4_mqCKvLUXmBcvZcJu2eiGZMjBR1_/s320/Matcha%20Frappuccino.jpeg"
+                        alt="" class="product img">
+                    <h3 class="product-title">Matcha Frappuccino</h3>
+                    <span class ="price">$900.00 JMD</span>
+                    <i class="fas fa-shopping-cart add-cart"></i>
+                    <div class="size-buttons">
+                        <button class="size-button">Tall</button>
+                        <button class="size-button">Venti</button>
+                        <button class="size-button">Grande</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box-5-->
+            <div class="product-box">
+                <div class="feature-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVaEm2HGU86E4i0RchbydiBcXUQtHCDaHoljRgme7X1tUveBYNKrs09n2IgJrnL59x6bcc5Ghbf0zxFTNxWnSfBGCiuAHj7yK23RFykExD1HK_sEykSL25-Bx4d6Z5hcHqaJgpTNidtpFti_0kb5-kYhBXv4gap3rsUZivREtlMMiyzQEawfK18sBZHe70/s320/White%20Chocolate%20Mocha%20%E2%84%A2.jpeg"
+                        alt="" class="product img">
+                    <h3 class="product-title">White Chocolate Mocha</h3>
+                    <span class ="price">$800.00 JMD</span>
+                    <i class="fas fa-shopping-cart add-cart"></i>
+                    <div class="size-buttons">
+                        <button class="size-button">Tall</button>
+                        <button class="size-button">Venti</button>
+                        <button class="size-button">Grande</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box-6-->
+            <div class="product-box">
+                <div class="feature-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvJIbKKclO-_c0Y_KYTaO7z54zFF0X0Cgi9oq4lHC2s5A7aiL5YEUBV1NK5xu1Zv7zOsD1KPS4OKhxx9hYV6ejJ6Hrm1A7DRq5Gi3K2mDb_ekKd1XTEgK00E06iKIJJNgLDkncklG8cUM8VMzJU-kS17K5qPQLozLHQRQvHb284goUA6crHVj_QQUmwKsu/s320/Vanilla%20Bean%20Cr%C3%A8me.jpeg"
+                        alt="" class="product img">
+                    <h3 class="product-title">Vanilla Bean Crème</h3>
+                    <span class ="price">$800.00 JMD</span>
+                    <i class="fas fa-shopping-cart add-cart"></i>
+                    <div class="size-buttons">
+                        <button class="size-button">Tall</button>
+                        <button class="size-button">Venti</button>
+                        <button class="size-button">Grande</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box-7-->
+            <div class="product-box">
+                <div class="feature-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhv8rwlGsgrOddcpWBXfW7FbA3VuJAfMvqp4kaFd-r3zOL9vM_rat0zjtft7CrP_FF9-rCKoes590-Fm42oqW6TUHoeJ7z2f0gz5Puhwf16cq5ypKCz840xuC3DXp4uiLb7NA7p5ROPH4W4rnEd-PCmOz6Pve5QUWEmBLD439TXw-Q-QvOMs89yJnxE9VHq/s320/Dulce%20De%20Leche%20(%20Frappuccino-%20Creme).jpeg"
+                        alt="" class="product img">
+                    <h3 class="product-title">Dulce De Leche (Frappuccino- Creme)</h3>
+                    <span class ="price">$800.00 JMD</span>
+                    <i class="fas fa-shopping-cart add-cart"></i>
+                    <div class="size-buttons">
+                        <button class="size-button">Tall</button>
+                        <button class="size-button">Venti</button>
+                        <button class="size-button">Grande</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="scripts.js"></script>
+        <script src="cart.js"></script>
+    </section>
+</body>
+
+</html>

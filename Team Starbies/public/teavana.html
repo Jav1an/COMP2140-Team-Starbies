@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teavana Teas</title>
+    <link rel="icon" href="favicon.png" type="image/jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="menucss.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon.png">
+</head>
+
+<body class="teavana">
+    <header>
+        <div class="logo">
+            <a href="dashboard.html">
+                <img src="favicon.png" width="80px">
+            </a>
+        </div>
+        <nav class="navigationbar">
+            <a href="dashboard.html">HOME</a>
+            <a href="menu.html">MENU</a>
+            <a href="favorites.html">FAVORITES</a>
+            <a href="https://dashboard.stripe.com/test/payments">ORDER</a>
+            <a href="index.html">SIGN OUT</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="favorites.html" class="fas fa-heart"></a>
+            <i class="fas fa-shopping-cart" id="cart-icon" data-quantity="0"></i>
+        </div>      
+
+        <div class="cart">
+            <h2 class = "cart-title">Your Cart</h2>
+            <div class="cart-content"></div>
+
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">$0</div>
+            </div>
+            <button type="button" class="btn-buy">Pay Now</button>
+            <i class="fas fa-times" id="close-cart"></i>
+
+        </div>
+    </header> 
+
+    <section class="shop-container3">
+        <h3 class="section-title3">Teavana™ Teas</h3>
+
+        <!-- Content -->
+        <div class="shop-content2">
+
+            <!-- Box-0 -->
+            <div class="product-box">
+                <div class="feature-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOhDyAWOk1oNawt_JF8_oNripNOv4fz2rKDjthxFcTeU4VD1lvs0fjHq7-WrV9AQCE60FqHRRcw0tZa6WuJQJxG4VLt58PpE_ArGGz9pIIYgHg4vsaDVvm-WnUpWOi_7AVis11FvTvbEL6F_O7TDBPRi527pD0yP_UfHUCB65qgAVFpuSR_KH8Stth8G2S/s320/Black%20Tea%20Latte.jpeg"
+                        alt="" class="product img">
+                    <h3 class="product-title">Black Tea Latte</h3>
+                    <span class ="price">$700.00 JMD</span>
+                    <i class="fas fa-shopping-cart add-cart"></i>
+                </div>
+            </div>
+
+            <!-- Box-1 -->
+            <div class="product-box">
+                <div class="feature-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmutR_zful44BrOGD5b1WR0wBT0dONWwvpIszyYGsKzNhjFLFB7_BMmdmzGgFHHpKwyVzDCzeDUlFBoIeBQcCqpGtOoSLRFG8v049GLP6tF3gezCAugjbRDQFH85fF44N5JaRZp1uTBEDz2NLpWetZxmKbz6HLQCWRmyeNp9wId_cL9eJEwdO7xIbQJU0s/s320/Matcha%20tea%20latte.jpeg"
+                        alt="" class="product img">
+                    <h3 class="product-title">Matcha Tea Latte</h3>
+                    <span class ="price">$700.00 JMD</span>
+                    <i class="fas fa-shopping-cart add-cart"></i>
+                </div>
+            </div>
+
+            <!-- Box-2-->
+            <div class="product-box">
+                <div class="feature-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYRa0coa8BltcxnUt6rxYWsThkFQXN4S_c6rATsrwhL7guOE-vbA4ublBviMckl8A5qWh-pMC6M54vzU6Z7ww_RwBq_MLchch8kXbbxxgo1GJHnCX-zQJOxvL1ykhthR4BwLrhoXbWfrsg8sfM7J2tiOf8vhyphenhyphencEihAautHeWXXjMiOc0MMXEbHBMkpCrH1/s320/Chai%20Tea%20Latte.jpeg"
+                        alt="" class="product img">
+                    <h3 class="product-title">Chai Tea Latte</h3>
+                    <span class ="price">$700.00 JMD</span>
+                    <i class="fas fa-shopping-cart add-cart"></i>
+                </div>
+            </div>
+
+            <!-- Box-3-->
+            <div class="product-box">
+                <div class="feature-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkwhPZjUUbU3rgZlcWEuT_Nm0HroowYLFIkCSn0VZJqtaevx8OsTIvBBdBF6xhlg0xATpUcWJzDRB1xs7UY07F5gFAm8najC_U5T8EMA6rjWM_yJsF1nN4d4onm1u43L-uMtsWwvsmTv9hZbGLaBi_ZD2w5KPmhwO17S6eJO5ouTQ2sVZWaIcxhgm7fllo/s320/Teavana%20Full%20leaf%20brewed%20tea.jpeg"
+                        alt="" class="product img">
+                    <h3 class="product-title">Teavana Full Leaf Brewed Tea</h3>
+                    <span class ="price">$400.00 JMD</span>
+                    <i class="fas fa-shopping-cart add-cart"></i>
+                </div>
+            </div>
+
+            <!-- Box-4-->
+            <div class="product-box">
+                <div class="feature-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzPYia8sUh3A9ZJACz2TwwPYaPUuv9wiZHU0UNmnd6TWWGWYx0ke33W13CVUsFkUw6BZxqep5KJ9-E1dhWAy9EHEX1Ld4N2-4YhB2Tg2Y5RFIcJt8cv6-_QdCBJrTuQRWqBqlJGBKwhVejpYeNWxaIpypmYwrMDs1WlYLzUyVVJQgbrP14eXGBcdciYSJs/s320/Shaken%20Iced%20Hibiscus%20Tea%20Lemonade%20%E2%84%A2.jpeg"
+                        alt="" class="product img">
+                    <h3 class="product-title">Shaken Iced Hibiscus Tea Lemonade</h3>
+                    <span class ="price">$750.00 JMD</span>
+                    <i class="fas fa-shopping-cart add-cart"></i>
+                    <div class="size-buttons">
+                        <button class="size-button">Tall</button>
+                        <button class="size-button">Venti</button>
+                        <button class="size-button">Grande</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box-5-->
+            <div class="product-box">
+                <div class="feature-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaqdTXRT44vzaqurYXJHX7iN6Vk0MV5QCS1j-VWQGi0FoSwHNPviVGpUSRF8EwW3dJCLtq5hIiO-ZidEGzJKIT_sN-haL2ZPRKMLoebj1hp2bNmRiLm_npx8JeNnHXaFvpXZRf_uhA8D_tCozwI935-m2oUW_o2GF20t3pmKbvDknwdgMg69s4HB00GHmI/s320/Shaken%20Iced%20Green%20Tea%20Lemonade.jpeg"
+                        alt="" class="product img">
+                    <h3 class="product-title">Shaken Iced Green Tea Lemonade</h3>
+                    <span class ="price">$750.00 JMD</span>
+                    <i class="fas fa-shopping-cart add-cart"></i>
+                    <div class="size-buttons">
+                        <button class="size-button">Tall</button>
+                        <button class="size-button">Venti</button>
+                        <button class="size-button">Grande</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box-6-->
+            <div class="product-box">
+                <div class="feature-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFhfl4cM7iBo-2_gBFo6EYgqn5xBGQJd3PMTZv4X3cFHktsG0Z1IGv_AbA0-PkyY-gAVCm4T-BIl3oKXc4kIUvzOEGlgGLIhAqdXvvbiQghSfCmC_TNHqTWYaVnaLG0oCBmno06Tt5a39YzTobStJlMCsw8_lAByWxDlKHuI1kvGIowdZ5bDqemVYprRSW/s320/Shaken%20Iced%20Black%20Tea%20Lemonade.jpeg"
+                        alt="" class="product img">
+                    <h3 class="product-title">Shaken Iced Black Tea Lemonade</h3>
+                    <span class ="price">$750.00 JMD</span>
+                    <i class="fas fa-shopping-cart add-cart"></i>
+                    <div class="size-buttons">
+                        <button class="size-button">Tall</button>
+                        <button class="size-button">Venti</button>
+                        <button class="size-button">Grande</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box-7-->
+            <div class="product-box">
+                <div class="feature-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfbnj7r4ZHCGs7P94MEKu1DW0_1f0p5R7AszMMAck90nsDXvixFG-vAhpHpMXZ2d3wsJajnUvw9CkQtOkPqLdyLKII7LqAwx6qXcg_j-O6R_TwH9aC2DwQHZN-m0nJCXmTdWdksFLyW4NVaFJsmy45ZBlsDYB7JNn0aUNgvJVJKF2ZNkivniKkn-QpsWMm/s320/Black%20Tea%20Latte%20Iced.jpeg"
+                        alt="" class="product img">
+                    <h3 class="product-title">Iced Black Tea Latte</h3>
+                    <span class ="price">$750.00 JMD</span>
+                    <i class="fas fa-shopping-cart add-cart"></i>
+                    <div class="size-buttons">
+                        <button class="size-button">Tall</button>
+                        <button class="size-button">Venti</button>
+                        <button class="size-button">Grande</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+        <script src="scripts.js"></script>
+        <script src="cart.js"></script>
+    </section>
+</body>
+
+</html>

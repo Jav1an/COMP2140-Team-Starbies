@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Menu Express</title>
+    <style>body {background: #fff;}</style>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="icon" href="favicon.png" type="image/jpeg">   
+    <link rel="stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon.png">
+</head>
+
+<body id = "top">
+    <!-- Header Section  -->
+    <header>
+        <div class="logo">
+            <a href="dashboard.html">
+                <img src="favicon.png" width="80px">
+            </a>
+        </div>
+            <nav class="navigationbar">
+                <a class="active" href="#top">HOME</a>
+                <a href="menu.html">MENU</a>
+                <a href="favorites.html">FAVORITES</a>
+                <a href="orders.html">ORDER</a>
+                <a href="index.html">SIGN OUT</a>
+            </nav>
+            <div class="icons">
+                <i class="fas fa-bars" id="menu-bars"></i>
+                <i class="fas fa-search" id="search-icon"></i>
+                <a href="favorites.html" class="fas fa-heart"></a>
+                <i class="fas fa-shopping-cart" id="cart-icon" data-quantity="0"></i>
+            </div>      
+    
+            <div class="cart">
+                <h2 class = "cart-title">Your Cart</h2>
+                <div class="cart-content"></div>
+    
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <button type="button" class="btn-buy">Pay Now</button>
+                <i class="fas fa-times" id="close-cart"></i>
+    
+            </div>
+        </header>
+
+<!-- search form -->
+
+<form action="search.results.html" id="search-form">
+    <input type="search" placeholder="Search Starbucks Menu Express" name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+
+<!-- home section -->
+
+<section class="home" id="home">
+
+    <div class="swiper home-slider">
+
+        <div class="swiper-wrapper wrapper">
+
+            <div class="swiper-slide slide">
+
+                <div class="content">
+
+                    <span>Your Guide to Health-Conscious Ordering</span>
+                    <h3>Eating Smart</h3>
+                    <p>We get it, picking the right Starbucks options to fit your eating habits is key. That's why we give you all the details about allergens and nutrition, so you can make the best decisions for you.</p>
+                </div>
+                <div class="image">
+                    <img src = "starbucksimg2.png" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Your Guide to Health-Conscious Ordering</span>
+                    <h3>Healthy Choices</h3>
+                    <p> We know that your order should match your health needs so whether you are steering clear of certain ingredients or aiming for a well-rounded meal, our menu helps you tailor your Starbucks experience to suit you perfectly.</p>
+                </div>
+                <div class="image">
+                    <img src = "starbucks.img.png" alt="">
+                </div>
+            </div> 
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Your Guide to Health-Conscious Ordering</span>
+                    <h3>Personalized Ease</h3>
+                    <p>No more unexpected surprises when you order. With our platform, you can set up your order online for a smooth, personalized experience at the Starbucks counter.</p>
+                    <a href ="#" id = "explore-menu" class ="btn">Explore Menu</a>
+                </div>
+                <div class="image">
+                    <img src = "starbucks-counter.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+        <!-- navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+        <!-- need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+
+    </div>
+
+</section>
+
+<!-- footer section starts -->
+
+<section class = "footer">
+    <div class="box-container">
+
+        <div class="box">
+
+            <h3>Location</h3>
+
+            <a href ="#" >Ligaunea Plaza,Kingston</a>
+            <a href ="#">Island Village Ocho Rios</a>
+            <a href ="#" >Drax Hall Country Club</a>
+            <a href ="#" >Fairview Plaza, Montego Bay</a>
+            <a href ="#" >Half Way Tree Mall,Kingston</a>
+        </div>
+
+        <div class="box">
+
+            <h3>Contact Information</h3>
+            <a href ="#"> + 1 (876) 101-1111</a>
+            <a href ="#"> + 1 (876) 111-1001</a>
+            <a href ="#">starbucks@example.com</a>
+            <a href ="#">starbucksja@example.com</a>
+            <a href ="#">The StarBucks Coffee Company Jamaica</a>
+         
+        </div>
+
+        <div class="box">
+            <h3>Social Media</h3>
+            <a href ="#"><i class="fab fa-facebook-f" style="margin-right: 10px;"></i>Facebook</a>
+            <a href ="#"><i class="fab fa-twitter" style="margin-right: 10px;"></i>Twitter</a>
+            <a href ="#"><i class="fab fa-instagram" style="margin-right: 10px;"></i>Instagram</a>
+            <a href ="#"><i class="fab fa-linkedin-in" style="margin-right: 10px;"></i>LinkedIn</a>
+            <a href ="#">The StarBucks Coffee Company Jamaica</a>       
+        </div>
+    </div>
+    <div class="credit">Developed by<span> Team Starbies </span></div>
+
+</section>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- custom js file link -->
+<script src="scripts.js"></script>
+
+
+</body>
+
+</html>

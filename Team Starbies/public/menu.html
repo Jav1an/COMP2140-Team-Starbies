@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Menu Options</title>
+        <link rel="icon" href="favicon.png" type="image/jpeg">   
+        <link rel="stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <!-- custom css file link -->
+        <link rel="stylesheet" href="menucss.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon.png">
+    </head>
+    
+    <body id = "top">
+        <header>
+            <div class="logo">
+                <a href="dashboard.html">
+                    <img src="favicon.png" width="80px"></a></div>
+                <nav class="navigationbar">
+                    <a href="dashboard.html">HOME</a>
+                    <a class="active" href="#top">MENU</a>
+                    <a href="favorites.html">FAVORITES</a>
+                    <a href="https://dashboard.stripe.com/test/payments">ORDER</a>
+                    <a href="index.html">SIGN OUT</a>
+                </nav>
+                <div class="icons">
+                    <i class="fas fa-bars" id="menu-bars"></i>
+                    <i class="fas fa-search" id="search-icon"></i>
+                    <a href="favorites.html" class="fas fa-heart"></a>
+                    <i class="fas fa-shopping-cart" id="cart-icon" data-quantity="0"></i>
+                </div>      
+        
+                <div class="cart">
+                    <h2 class = "cart-title">Your Cart</h2>
+                    <div class="cart-content"></div>
+        
+                    <div class="total">
+                        <div class="total-title">Total</div>
+                        <div class="total-price">$0</div>
+                    </div>
+                    <button type="button" class="btn-buy">Pay Now</button>
+                    <i class="fas fa-times" id="close-cart"></i>
+        
+                </div>
+            </header>
+
+        <section class="shop-container">
+            <h3 class="section-title">Starbucks Menu Offers</h3>
+            <h1 class="heading">Espresso & Coffees</h1>
+   
+            <!-- Content -->
+            <div class="shop-content">
+        
+                <!-- Box-0 -->
+                <div class="product-box">
+                    <h3 class="product-title">Espresso Beverages Offers</h3>
+                    <div class="feature-container">
+                        <img src="Caramel Macchiato Espresso.jpeg" alt="Caramel Macchiato Espresso">
+                        <div class="btn-container">
+                            <a href="espresso.html" id="ordernow1" class="btn product-btn">
+                                Check Offers 
+                            </a>  
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Box-1 -->
+                <div class="product-box">
+                    <h3 class="product-title">Teavana <br> Teas <br> Offers</h3>
+                    <div class="feature-container">
+                        <img src="Teavana Teas.jpeg" alt="Teavana Teas">
+                        <div class="btn-container">
+                            <a href="teavana.html" id="ordernow2" class="btn product-btn">
+                                Check Offers
+                            </a>  
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Box-2 -->
+                <div class="product-box">
+                    <h3 class="product-title">Refreshers & Shaken Teas Offers</h3>
+                    <div class="feature-container">
+                        <img src="strawberry acai.jpg" alt="Strawberry Acai" class="product-img">
+                        <div class="btn-container">
+                            <a href="refreshers.html" id="ordernow3" class="btn product-btn">
+                                Check Offers
+                            </a>  
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Box-4 -->
+                <div class="product-box">
+                    <h3 class="product-title">Frappuccino Beverages Offers</h3>
+                    <div class="feature-container">
+                        <img src="Caramel Frappuccino Coffee.jpeg" alt="Caramel Frappuccino Coffee">
+                        <div class="btn-container">
+                            <a href="frap.html" id="ordernow4" class="btn product-btn">
+                                Check Offers
+                            </a>  
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Box-5 -->
+                <div class="product-box">
+                    <h3 class="product-title">Cold <br> Brew <br> Offers</h3>
+                    <div class="feature-container">
+                        <img src="Cold brew.jpeg" alt="Cold Brew">
+                        <div class="btn-container">
+                            <a href="ColdBrew.html" id="ordernow5" class="btn product-btn">
+                                Check Offers
+                            </a>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="shop-container2">
+            <h1 class="heading">Food Offers</h1>
+   
+            <!-- Content -->
+            <div class="shop-content">
+        
+                <!-- Box-0 -->
+                <div class="product-box">
+                    <h3 class="product-title">Hot Breakfast Offers</h3>
+                    <div class="feature-container">
+                        <img src="Double-Smoked Bacon, Cheddar & Egg Sandwich.jpeg" alt="Double-Smoked Bacon, Cheddar & Egg Sandwich">
+                        <div class="btn-container">
+                            <a href="HotBreakfastOffers.html" id="ordernow11" class="btn product-btn">
+                                Check Offers 
+                            </a>  
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Box-1 -->
+                <div class="product-box">
+                    <h3 class="product-title">Oatmeal & Yogurt Offers</h3>
+                    <div class="feature-container">
+                        <img src="Berry Trio Parfait.jpeg" alt="Berry Trio Parfait">
+                        <div class="btn-container">
+                            <a href="Oatmeal & Yogurt.html" id="ordernow12" class="btn product-btn">
+                                Check Offers
+                            </a>  
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Box-2 -->
+                <div class="product-box">
+                    <h3 class="product-title">Bakery </h3>
+                    <div class="feature-container">
+                        <img src="Cinnamon Raisin Bagel.jpeg" alt="Cinnamon Raisin Bagel ™">
+                        <div class="btn-container">
+                            <a href="Bakeries.html" id="ordernow13" class="btn product-btn">
+                                Check Offers
+                            </a>  
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Box-4 -->
+                <div class="product-box">
+                    <h3 class="product-title">Lunch Offers</h3>
+                    <div class="feature-container">
+                        <img src="Ham & Swiss Croissant.jpg" alt="Ham & Swiss Croissant">
+                        <div class="btn-container">
+                            <a href="Lunches.html" id="ordernow14" class="btn product-btn">
+                                Check Offers
+                            </a>  
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Box-5 -->
+                <div class="product-box">
+                    <h3 class="product-title">Snacks & Sweets Offers</h3>
+                    <div class="feature-container">
+                        <img src="Madeleines.jpeg" alt="Madeleines">
+                        <div class="btn-container">
+                            <a href="Snacks&Sweets.html" id="ordernow15" class="btn product-btn">
+                                Check Offers
+                            </a>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        
+
+        <!-- 
+        <form action="search.results.html" id="search-form">
+            <input type="search" placeholder="Search Starbucks Menu Express" name="" id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+            <i class="fas fa-times" id="close"></i>
+        </form> -->
+
+        <script src="scripts.js"></script>
+        <script src="cart.js"></script>
+
+    </body>
+</html>
+
+
+
+
+         

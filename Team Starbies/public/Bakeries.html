@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery™</title>
+    <link rel="icon" href="favicon.png" type="image/jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="menucss.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon.png">
+</head>
+
+<body class="Bakery">
+    <header>
+        <div class="logo">
+            <a href="dashboard.html">
+                <img src="favicon.png" width="80px">
+            </a>
+        </div>
+        <nav class="navigationbar">
+            <a href="dashboard.html">HOME</a>
+            <a href="menu.html">MENU</a>
+            <a href="favorites.html">FAVORITES</a>
+            <a href="https://dashboard.stripe.com/test/payments">ORDER</a>
+            <a href="index.html">SIGN OUT</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="favorites.html" class="fas fa-heart"></a>
+            <i class="fas fa-shopping-cart" id="cart-icon" data-quantity="0"></i>
+        </div>      
+
+        <div class="cart">
+            <h2 class = "cart-title">Your Cart</h2>
+            <div class="cart-content"></div>
+
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">$0</div>
+            </div>
+            <button type="button" class="btn-buy">Pay Now</button>
+            <i class="fas fa-times" id="close-cart"></i>
+
+        </div>
+
+    </header>
+
+    <section class="shop-container3">
+        <h3 class="section-title3">Bakeries™</h3>
+
+        <!-- Content -->
+        <div class="shop-content2">
+
+            <!-- Box-0 -->
+            <div class="product-box">
+                <div class="feature-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtfT8Q8z9YXyZALl-T0oFUsRvdMxRVqVr-f1VN6fnbM_fC6PTmx9S7-h8-jZEY1AMuLOGPjSU4c-4HJ3D4j5ewJqMz_bhr-kzCV9wHFzhJ9BYgEsnY61q21MOe4biLGrIKjW9h7t7ap9bSTrzIj792gryW8HJLfQ7Mrav_cE-cZG7HC2jbpf4uwOaJBB70/s320/Cinnamon%20Raisin%20Bagel%20%E2%84%A2.jpeg"
+                        alt="" class="product img">
+                    <h3 class="product-title">Cinnamon Raisin <br> Bagel</h3>
+                    <span class ="price">$350.00 JMD</span>
+                    <i class="fas fa-shopping-cart add-cart"></i>
+                </div>
+            </div>
+
+            <!-- Box-1 -->
+            <div class="product-box">
+                <div class="feature-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2fxb3Vy1aAynnYNm5gtUoFlw49rZeaNnmgT39gg4YIS7pqysns-Zm11OiNdxdv9xDcwmN-gmUgwQyV-mS09RM2UFAEufRQns-ci7xbpqBbGtt3C5iOn2je_8bCtTsgTKuxlWRMVWiGAzs9WmdkHgz7DpF5NAeJ6v8tuwzag-oxsevclZlYdI9fqBqRmWW/s320/Butter%20Croissant%20%E2%84%A2.jpeg"
+                        alt="" class="product img">
+                    <h3 class="product-title">Butter Croissant</h3>
+                    <span class ="price">$400.00 JMD</span>
+                    <i class="fas fa-shopping-cart add-cart"></i>
+                </div>
+            </div>
+
+            <!-- Box-2-->
+            <div class="product-box">
+                <div class="feature-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXqbzLTKxp2FBteYYI09MTUPUALZqPgPHj-n0zJ-P7hul50QzVnwTypq3WFkkQuQud9psPxqMI2lvGwqtKj2aCT9ZX42Xu4yjngGn3aJVbpb97e3OYoGVjvhwMZlcl-iSreVBjE9qzVTa9aHQuV7nsOnWB5TjfxkcR62RH2IPUA-Cacby70eq9aEzGKu7h/s320/Tomato%20Mozzarella%20Panini.jpeg"
+                        alt="" class="product img">
+                    <h3 class="product-title">Tomato Mozzarella<br>Panini</h3>
+                    <span class ="price">$850.00 JMD</span>
+                    <i class="fas fa-shopping-cart add-cart"></i>
+                </div>
+            </div>
+
+            <!-- Box-3-->
+            <div class="product-box">
+                <div class="feature-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYc3cxeeWcM517J6hAJ2eOZojNRiiTaTwezvXq1fF8FjZWaMlJT-vWHgHSKKMe7pEyOUc01Ah0Bq0nN-XUP1xJAyLWZWY7twCUYJuMOI_Qfw_RDcQnrNj2Vd6t4gcQJC9nbSsZCCsnZSp7Mflm60W-zzbpAqrrV_B_gkrQrAcaOd1nwP1aDFslMBfCT8qU/s320/BANANA%20NUT%20BREAD.jpeg"
+                        alt="" class="product img">
+                    <h3 class="product-title">BANANA NUT BREAD</h3>
+                    <span class ="price">$450.00 JMD</span>
+                    <i class="fas fa-shopping-cart add-cart"></i>
+                </div>
+            </div>
+
+            <!-- Box-4-->
+            <div class="product-box">
+                <div class="feature-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgogQs0ZVc8kNWWE89zjg-i7NhRpjG4Q_ZaW5IfpAb22L9eN56YTS2vszNcQpwOnc9SrUl1teR72hve4UqaYwLNrw-r67njIcZrwjiLC6_qiByWJmsK1juPEzZzPRX4pLwEUXHGPKPhzzZJWlqbmmC2vBvYeusOvI0Ti4UVP5_AiLbj-mhrbazR9mkeL9an/s320/CHEESE%20DANISH.jpeg"
+                        alt="" class="product img">
+                    <h3 class="product-title">CHEESE DANISH</h3>
+                    <span class ="price">$400.00 JMD</span>
+                    <i class="fas fa-shopping-cart add-cart"></i>
+                </div>
+            </div>
+
+            <!-- Box-5-->
+            <div class="product-box">
+                <div class="feature-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmhk0WSOf9R1yYJ6QjMIDJvYxAoSqrlLKvXtU9mPuaddvSzmOanNPpgwtCVNQ_eQLg2VnF_OKrz5NCR2rTFJNC3272pBH3lqhyQOuL6sTrLKis5J_kydn0nWQj9Y6rBeGtZIuy3qwvEYQaB6-rCxXZYTSEBNPAkIZ3GxFC3AMXP56-LtgievVG7YXaoapr/s320/Cranberry%20Bliss%20Bar.jpg"
+                        alt="" class="product img">
+                    <h3 class="product-title">Cranberry Bliss Bar</h3>
+                    <span class ="price">$400.00 JMD</span>
+                    <i class="fas fa-shopping-cart add-cart"></i>
+                </div>
+            </div>
+
+            <!-- Box-6-->
+            <div class="product-box">
+                <div class="feature-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0__Xg_PHqyaSiiRYdLwXxWLUIhSpl180SuukmgrzvsdFij5OYkhMXuOtbG635R3yrYY5Z5G1EYPmRRvuZDLHWSQbvwm56oGGyoO17m_3q6IdiecpIa8YM3MiwLCniRFCxPslFLHijj_iRGuVAIbBSbgRiPAhG13WVbQeV9a_lXGG9svc1d_qyucoAjZsd/s320/blueberry.jpg"
+                        alt="" class="product img">
+                    <h3 class="product-title">Blueberry Cupcake</h3>
+                    <span class ="price">$400.00 JMD</span>
+                    <i class="fas fa-shopping-cart add-cart"></i>
+                </div>
+            </div>
+
+            <!-- Box-7-->
+            <div class="product-box">
+                <div class="feature-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHeXHMUrxRfL1N47Cb164UfvhawuPu85bU7-eHap_9fT-vhR7ctsXsO6LcjOAjL4U5aSBcRw7n9NIYM9N2MdADg_XKCj7oP-TUEhd9oyDPoW5MUV0sKM2DzvdP5Jh4ZW_J1JbJ4VCuerbU8JmXz6pNT75jFpsAicj747xqiD6UZsUvtmJdMWu1elcQimdc/s320/DOUBLE%20CHOCOLATE%20CHUNK%20BROWNIE.jpeg"
+                        alt="" class="product img">
+                    <h3 class="product-title">DOUBLE CHOCOLATE CHUNK BROWNIE</h3>
+                    <span class ="price">$400.00 JMD</span>
+                    <i class="fas fa-shopping-cart add-cart"></i>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+        <script src="scripts.js"></script>
+        <script src="cart.js"></script>
+    </section>
+</body>
+
+</html>

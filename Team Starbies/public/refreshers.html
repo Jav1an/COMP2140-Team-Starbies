@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Refreshers™</title>
+    <link rel="icon" href="favicon.png" type="image/jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="menucss.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon.png">
+</head>
+
+<body class="refreshers">
+    <header>
+        <div class="logo">
+            <a href="dashboard.html">
+                <img src="favicon.png" width="80px">
+            </a>
+        </div>
+        <nav class="navigationbar">
+            <a href="dashboard.html">HOME</a>
+            <a href="menu.html">MENU</a>
+            <a href="favorites.html">FAVORITES</a>
+            <a href="https://dashboard.stripe.com/test/payments">ORDER</a>
+            <a href="index.html">SIGN OUT</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="favorites.html" class="fas fa-heart"></a>
+            <i class="fas fa-shopping-cart" id="cart-icon" data-quantity="0"></i>
+        </div>      
+
+        <div class="cart">
+            <h2 class = "cart-title">Your Cart</h2>
+            <div class="cart-content"></div>
+
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">$0</div>
+            </div>
+            <button type="button" class="btn-buy">Pay Now</button>
+            <i class="fas fa-times" id="close-cart"></i>
+
+        </div>
+    </header>
+
+    <section class="shop-container3">
+        <h3 class="section-title3">Starbucks Refreshers™ & Shaken Teas</h3>
+
+        <!-- Content -->
+        <div class="shop-content2">
+
+            <!-- Box-0 -->
+            <div class="product-box">
+                <div class="feature-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8tBPkepkeIYeOdrGNXvWITpbOIHHhaYX1ssiv9Fx2N91bvw5HoN8OlyUTh8X4TOnbcxGW9pDPZK3KwigppPQjX2VSZXFvaJfr_fV-zNAtGKsszAmtAca43MdUHxxH21FmuVrYt5Wkzez1LgfRkZYCDAtYNjCU9fysY-CtDiaPf5DDO4EgfxiSqNQuIVxi/s320/strawberry%20acai.jpg"
+                        alt="" class="product img">
+                    <h3 class="product-title">Strawberry Açai</h3>
+                    <span class ="price">$700.00 JMD</span>
+                    <i class="fas fa-shopping-cart add-cart"></i>
+                    <div class="size-buttons">
+                        <button class="size-button">Tall</button>
+                        <button class="size-button">Venti</button>
+                        <button class="size-button">Grande</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box-1 -->
+            <div class="product-box">
+                <div class="feature-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbNygLq7VImvQS6u8R8ssNYGvMGKoBNkpD_WZ63tP9e85PTHxH8a7bnarKPRQdzmpKSB-tYNiIbIJ14lzdAgzoh3t1BomKDc5A-4Zulg7hMwD50Qd2zjFvtqqZ6nTqwFP8QlbweCAK4cHQUO29MfbAOYkU1KHSbjpKCYJPWpCxwxGtGI4IWTj_RbMK0nAW/s320/Pineapple%20Passion%20Refresher.jpeg"
+                        alt="" class="product img">
+                    <h3 class="product-title">Pineapple Passion Refresher</h3>
+                    <span class ="price">$700.00 JMD</span>
+                    <i class="fas fa-shopping-cart add-cart"></i>
+                    <div class="size-buttons">
+                        <button class="size-button">Tall</button>
+                        <button class="size-button">Venti</button>
+                        <button class="size-button">Grande</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box-2-->
+            <div class="product-box">
+                <div class="feature-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilVPJ8q8oRrLXSyQTo9UCp-8pkaGqyyY-6FR7n5M-P-xkA1YX8InfdQSh-UJzMXXSDsX6zmQgykohlzBy6jVwq7Zpotn2qG0cXavPR5SV42l6Wr1lCsqhUv5A0aI-LPJbxEEmyWDRUiorrrO1Wpk5zSbregY3p4COngp0O_jaxXAd0oRNbVBFRAL_9Ac2X/s320/Iced%20Shaken%20Tea.jpeg"
+                        alt="" class="product img">
+                    <h3 class="product-title">Iced Shaken Tea</h3>
+                    <span class ="price">$700.00 JMD</span>
+                    <i class="fas fa-shopping-cart add-cart"></i>
+                    <div class="size-buttons">
+                        <button class="size-button">Tall</button>
+                        <button class="size-button">Venti</button>
+                        <button class="size-button">Grande</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box-3-->
+            <div class="product-box">
+                <div class="feature-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmBggFIbskKue_U_X2hXLVeUZOKBHoKEHrvJ1zILjHEhjYS25ap7iyAaNwYioP1Y918lxlgcbY7twKNgEWgyaX8yXXJ1uadB_LUY1gqHZqrvcVmJ9rL2IRkSktmou62QKNWhi305hNak6CEmKEKQvPrhmFoK_XKJKEi4H9KxjWT37oRPInZZLAfb_uUSUS/s320/Mango%20Dragonfruit.jpeg"
+                        alt="" class="product img">
+                    <h3 class="product-title">Mango Dragonfruit</h3>
+                    <span class ="price">$700.00 JMD</span>
+                    <i class="fas fa-shopping-cart add-cart"></i>
+                    <div class="size-buttons">
+                        <button class="size-button">Tall</button>
+                        <button class="size-button">Venti</button>
+                        <button class="size-button">Grande</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box-4-->
+            <div class="product-box">
+                <div class="feature-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEij9Qdp7-n-QCAgLn-h_5FZSy4aueHggbVFgEFSpJt52qvle0xKzyXQaXpMn9m3-NpYYrOzaRGNljDQ4r2T4OrYiLhUXh-XciHylm66bTOwm2DzsggMwh7ZiidBADStFNpbQRpgWPcyQgC0g3agRivXSRvpAlPOEhK9FL0Z52InXsT2rjES5oTXVI0QIAFq/s320/Pineapple%20Passion%20Refresher%20Lemonade.jpeg"
+                        alt="" class="product img">
+                    <h3 class="product-title">Pineapple Passion Refresher Lemonade</h3>
+                    <span class ="price">$700.00 JMD</span>
+                    <i class="fas fa-shopping-cart add-cart"></i>
+                    <div class="size-buttons">
+                        <button class="size-button">Tall</button>
+                        <button class="size-button">Venti</button>
+                        <button class="size-button">Grande</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box-5-->
+            <div class="product-box">
+                <div class="feature-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwF88oIEHDNx9AJh8kCVp2RzkcemUexVYBXYXIsy9OH9eBO3PGF_sU6nUjSyq-Nt7LH_5yYRguFoAyB3GegV13jVqL3TVs3gNTdMZJqrhiKuzurRYaVP_3uR7VCQhr45Jtw6AJNIGwPO76dqcRIvAi4A_O8RikgXVftgRgRHES3l_bG8FskELA4h8QvlPs/s320/Strawberry%20Acai%20Frozen%20Refresher.jpeg"
+                        alt="" class="product img">
+                    <h3 class="product-title">Strawberry Açai Frozen Refresher</h3>
+                    <span class ="price">$700.00 JMD</span>
+                    <i class="fas fa-shopping-cart add-cart"></i>
+                    <div class="size-buttons">
+                        <button class="size-button">Tall</button>
+                        <button class="size-button">Venti</button>
+                        <button class="size-button">Grande</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box-6-->
+            <div class="product-box">
+                <div class="feature-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFB1Kruq-P_oBCmnHYLDlDfjhw-sn2EuCMPVpwQ2alcIPOgfTxRofsCj2jFOhsy9LeOp8BmoQ2ejOOcT33Fhxgj5DioACI1quWP4ivv-JENCTiNyv1azFzDcrg0Xve_fhvOnlzKjzZEzWLMnx1H-UsHvy-7CTsD08Mu5oCVA27hxjxzK9K0U4YLbQcXe2F/s1024/Dragon%20Drink.jpeg"
+                        alt="" class="product img">
+                    <h3 class="product-title">Dragon Drink</h3>
+                    <span class ="price">$700.00 JMD</span>
+                    <i class="fas fa-shopping-cart add-cart"></i>
+                    <div class="size-buttons">
+                        <button class="size-button">Tall</button>
+                        <button class="size-button">Venti</button>
+                        <button class="size-button">Grande</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box-7-->
+            <div class="product-box">
+                <div class="feature-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgt07tA3H-NZ1_TtP_il5ARcZFsVizYFo4GBEkIY0frN6lbD5-pwLAm0QdBZucHFeeDodu76rZWKCriiy27flEcvu1teWleD7UTdT7ciE-V0IMsqDgppYtcm5obCw5tF_ZQyBbwyj2vmKFRCB4T95842Qq2_mULQUd2tXYE5mkTOahjf4gyyi2OZEq0t9Hu/s320/Paradise%20Drink.jpeg"
+                        alt="" class="product img">
+                    <h3 class="product-title">Paradise Drink</h3>
+                    <span class ="price">$700.00 JMD</span>
+                    <i class="fas fa-shopping-cart add-cart"></i>
+                    <div class="size-buttons">
+                        <button class="size-button">Tall</button>
+                        <button class="size-button">Venti</button>
+                        <button class="size-button">Grande</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+        <script src="scripts.js"></script>
+        <script src="cart.js"></script>
+    </section>
+</body>
+
+</html>
